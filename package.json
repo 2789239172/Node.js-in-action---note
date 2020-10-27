@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "node test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "connect": "^3.4.0",
+    "koa": "^2.13.0",
+    "koa-router": "^9.4.0"
+  }
+}
