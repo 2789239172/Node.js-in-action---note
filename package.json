@@ -6,6 +6,8 @@
   "dependencies": {
     "connect": "^3.4.0",
     "koa": "^2.13.0",
-    "koa-router": "^9.4.0"
+    "koa-router": "^9.4.0",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.11"
   }
 }
