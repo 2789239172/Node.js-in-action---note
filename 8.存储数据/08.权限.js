@@ -44,13 +44,13 @@
   ### 2. 退出卸载服务
       ```
           管理员运行
-          bin\mongodb --remove
+          bin\mongod --remove
       ```
 
   ### 3. 重新安装需要输入账号密码的服务
       ```
           管理员运行
-          bin\mongodb --install --dbpath E:\mongodb\data --logpath E:\mongodb\logs\mongodb2.log --auth
+          bin\mongod --install --dbpath E:\mongodb\data --logpath E:\mongodb\logs\mongodb2.log --auth
       ```
 
   ### 4. 启动服务
@@ -60,13 +60,7 @@
 
             1. mongo 服务器IP:端口/数据库 -u 用户名 -p 密码
              /
-            2. a
-      ```
-  ### 5. 通过超级管理员账号登录
-      ```
-            1. mongo 服务器IP:端口(默认27017)/数据库 -u 用户名 -p 密码
-             /
-            2.  先登录, 选择数据库admin, 输入db.auth(用户名, 密码)
+            2. 先登录, 选择数据库admin, 输入db.auth(用户名, 密码)
       ```
 
   ## 练习
