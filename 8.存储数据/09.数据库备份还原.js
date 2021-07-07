@@ -6,6 +6,8 @@
       -p: pwd 密码
       -d: database 数据库 (!!不写默认导出全局)
       -o: open 备份到指定目录下
+    - 有时需要指定存储账号的库: 
+        + --authenticationDatabase admin
 
   + 还原数据库: mongorestore -h -port -u -p -d --drop 备份数据目录
       -d 不写则还原全部数据

@@ -58,9 +58,9 @@
             net start mongodb
             mongo
 
-            1. mongo 服务器IP:端口/数据库 -u 用户名 -p 密码
+            1. mongo 服务器IP:端口(默认27017)/数据库 -u 用户名 -p 密码
              /
-            2. 先登录, 选择数据库admin, 输入db.auth(用户名, 密码)
+            2.  先登录, 选择数据库admin, 输入db.auth(用户名, 密码)
       ```
 
   ## 练习
